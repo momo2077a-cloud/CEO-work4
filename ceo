@@ -1,0 +1,24 @@
+Write a function that determines whether a number is prime or not.
+pupose:
+chak if a given number is a prime number or not.
+input:a singel integerm n
+process:if n -< 1 not prime
+check all numbers from 2 up to`n:
+if any number divides n evenly not prime
+otherwise -prime
+output:
+return True if the number is prime.
+return false if the number is not prime.
+example:
+input7-output TRue
+taha hashemi
+def is_prime(n):
+    if n<=1:
+        return False
+    for i range(2,int(n**0.5)+1)
+        if n%i==0:
+            return False
+        return True
+
+    num=7
+    print(f"{num}is prime {is_prime(num)}")
